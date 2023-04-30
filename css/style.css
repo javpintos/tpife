@@ -1,0 +1,9 @@
+.imgFondo{
+    background-image: url("../assets/img/hawaii.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    background-color: rgb(83, 83, 87);
+    background-blend-mode: soft-light;
+
+}
