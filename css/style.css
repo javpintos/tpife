@@ -7,3 +7,8 @@
     background-blend-mode: soft-light;
     margin-top: 5em;
 }
+
+.texto-blanco{
+    text-decoration:none;
+    color: white;
+}

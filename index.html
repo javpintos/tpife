@@ -61,9 +61,13 @@
     </div>
 
     <!-- Sección Oradores -->
-    <h6 class="text-center">CONOCE A LOS</h6>
-    <h2 class="text-center">ORADORES</h2>
     <div class="container" id="oradores">
+        <div class="col">
+            <h6 class="text-center mt-3">CONOCE A LOS</h6>
+        </div>
+        <div class="col">
+            <h2 class="text-center mb-3">ORADORES</h2>
+        </div>
         <div class="row row-cols-1 row-cols-md-3 g-4">
             <div class="col">
                 <div class="card">
@@ -125,48 +129,57 @@
 
     <!-- Conviertete en orador -->
     <div class="container" id="conviertete">
-        <h6 class="text-center mt-3">CONVIERTETE EN UN</h6>
-        <h2 class="text-center">ORADOR</h2>
-        <h6 class="text-center mt-3">Anótate como orador para dar una charla ignite. Cuéntanos de que quieres hablar!</h6>
+        <div class="col">
+            <h6 class="text-center mt-3">CONVIERTETE EN UN</h6>
+        </div>
+        <div class="col">
+            <h2 class="text-center">ORADOR</h2>
+        </div>
+        <div class="col">
+            <h6 class="text-center mt-3">Anótate como orador para dar una charla ignite. Cuéntanos de que quieres hablar!</h6>
+        </div>
         <div class="row">
                           
               <div class="input-group mb-3">
-                <input type="text" class="form-control m-3" placeholder="Nombre" aria-label="Username">
-                <input type="text" class="form-control m-3" placeholder="Apellido" aria-label="Server">
+                <input type="text" class="form-control me-3" placeholder="Nombre" aria-label="Username">
+                <input type="text" class="form-control ms-3" placeholder="Apellido" aria-label="Server">
               </div>
               
               <div class="input-group">
-                <textarea class="form-control m-3" placeholder="Sobre que quieres hablar" aria-label="With textarea"></textarea>
+                <textarea rows="3" style="height:100%" class="form-control" placeholder="Sobre que quieres hablar?" aria-label="With textarea"></textarea>
               </div>
-              <button type="button m-3" class="btn btn-success">Enviar</button>
+              <p m-5>Recuerda incluir un título para tu charla.</p>
+              <button type="button" class="btn btn-success mx-2">Enviar</button>
         </div>
     </div>   
     
     <!-- Footer -->
     <footer>
-        <nav class="navbar navbar-expand-lg bg-secondary">
+        <nav class="navbar navbar-expand-lg bg-secondary mt-3">
             <div class="container-fluid .bg-secondary">
-                
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Preguntas frecuentes</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Contactanos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Prensa</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Conferencias</a>
-                        </li>
-                    </ul>
-                </div>
+                <ul class="nav justify-content-center mx-auto">
+                    <li class="nav-item text-white">
+                      <a class="nav-link texto-blanco" href="#">Preguntas frecuentes</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link  texto-blanco" href="#">Contáctanos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link texto-blanco" href="#">Prensa</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link texto-blanco" href="#">Conferencias</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link texto-blanco" href="#">Términos y condiciones</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link texto-blanco" href="#">Privacidad</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link texto-blanco" href="#">Estudiantes</a>
+                      </li>
+                  </ul>
             </div>
         </nav>
     </footer>
