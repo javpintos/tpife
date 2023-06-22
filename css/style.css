@@ -1,3 +1,16 @@
+:root {
+  --gray-100: #f8f9fa;
+  --gray-200: #e9ecef;
+  --gray-300: #dee2e6;
+  --gray-400: #ced4da;
+  --gray-500: #adb5bd;
+  --gray-600: #6c757d;
+  --gray-700: #495057;
+  --gray-800: #343a40;
+  --gray-900: #212529;
+  --menu-color: rgba(255, 255, 255, .55);
+}
+
 .imgFondo{
     background-image: url("../assets/img/hawaii.jpg");
     background-size: cover;
@@ -13,11 +26,32 @@
     color: white;
 }
 
+.green-text {
+  color:#03aa55 !important;
+}
+
+.conviertete {
+  width: 90%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
 /* Comprar tickets */
+
+#tickets {
+  background-color: var(--gray-200);
+  margin-top: 3rem;
+  padding-top: 1rem;
+}
+
 .tickets .container-tickets {
     width: 90%;
     max-width: 800px;
     margin: 0 auto;
+  }
+
+  #ventaTickets {
+    text-align: center;
   }
   
   .tickets-category {
