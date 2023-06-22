@@ -94,11 +94,6 @@
     color: var(--gray-700);
   }
   
-  .tickets-category h6 {
-    font-size: 0.7rem;
-    color: var(--gray-600);
-  }
-  
   .tickets-category .estudiante {
     border-radius: 5px;
     border: 2px solid blue;

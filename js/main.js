@@ -90,7 +90,7 @@ function borrarOutput() {
 }
 
 
-// ******* FUNCION APDATECATEGORY *****************
+// ******* FUNCION UPDATECATEGORY *****************
 function updateCategory(evento) {
     // console.log(document.querySelector(".ticketsCategory"));
     let categoria = evento.target.parentNode.className;
@@ -128,7 +128,7 @@ function updateCategory(evento) {
 function ticketsSubmit() {
 
     let form = document.querySelector(".ticketsForm");
-console.log(form);
+    console.log(form);
     inputCheck(form);
 
     function inputCheck(form) {
@@ -159,7 +159,7 @@ console.log(form);
     }
 }
 
-// ******* FUNCION CELARINPUT *****************
+// ******* FUNCION CLEARINPUT *****************
 function clearInput(evento) {
     // console.log(evento.target.className);
     document.querySelector("." + evento.target.className).style.border = "1px solid var(--gray-300)";
